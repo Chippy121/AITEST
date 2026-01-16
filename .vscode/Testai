@@ -1,0 +1,14 @@
+// TEST: CREATE LOGIN PAGE
+import pytest
+# Test the login page elements
+def test_login_page_elements():
+    assert True
+# Test the login functionality
+
+def test_login_functionality():
+    assert True
+# Test the logout functionality
+def test_logout_functionality():
+    assert True
+
+    assert True

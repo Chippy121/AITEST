@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base overrides */
+:root {
+  --primary: #06b6d4;
+  --accent: #0ea5a3;
+}
+
+@layer components {
+  .calc-section {
+    @apply bg-gradient-to-b from-white/3 to-black/10 backdrop-blur-sm rounded-3xl p-6 shadow-2xl border border-white/5;
+  }
+}
